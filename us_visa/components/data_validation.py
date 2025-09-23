@@ -62,7 +62,6 @@ class DataValidation:
             if len(missing_numerical_columns)>0:
                 logging.info(f"Missing numerical column: {missing_numerical_columns}")
 
-
             for column in self._schema_config["categorical_columns"]:
                 if column not in dataframe_columns:
                     missing_categorical_columns.append(column)
@@ -154,7 +153,6 @@ class DataValidation:
             else:
                 logging.info(f"Validation_error: {validation_error_msg}")
                 
-
             data_validation_artifact = DataValidationArtifact(
                 validation_status=validation_status,
                 message=validation_error_msg,
