@@ -20,6 +20,11 @@ End-to-End Machine Learning Project - 1 - US Visa Prediction
 - https://www.atlassian.com/software/jira
 
 
+### MLOps - Data Drift
+
+- https://www.evidentlyai.com/
+
+
 ### Database used:
 
 - MongoDB: https://account.mongodb.com/account/login
