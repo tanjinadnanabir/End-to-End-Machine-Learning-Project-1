@@ -140,6 +140,9 @@ class DataTransformation:
                 TargetValueMapping()._asdict()
                 )
 
+                # warning
+                # pd.set_option("future.no_silent_downcasting", True)
+
                 logging.info("Got train features and test features of Testing dataset")
 
                 logging.info(
